@@ -10,7 +10,7 @@ config_dict['language'] = 'ru'
 owm = OWM('57a510163dc11f413822bf0538d632b6',config_dict)
 mgr = owm.weather_manager()
 
-bot = telebot.TeleBot("2019591321:AAEKiWhzkPFqhJc6q9kPJHQw8Nkk64BXd44", parse_mode=None)
+bot = telebot.TeleBot("5759654288:AAERTQX05OWbbEXO5zWV41i_C8noy9zpPL0", parse_mode=None)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
